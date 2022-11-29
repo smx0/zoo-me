@@ -1,5 +1,5 @@
 # zoo-me
-free the animals. That's it. 
+free the animals
 
 
 animal images from icons8
