@@ -1,4 +1,5 @@
 # zoo-me
 Drag and drop animals into a box. That's it. 
 
-Images from icons8
+animal images from icons8
+earth image from transparentpng
