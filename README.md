@@ -5,4 +5,4 @@ free the animals
 
 
 💬
-animals from icons8, earthfrom transparentpng
+animals from icons8, earth from transparentpng
