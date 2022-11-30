@@ -1,0 +1,69 @@
+body {
+    background-color:rgb(28, 35, 41);
+    background: linear-gradient(to right, #24243e, #141E30, #0f0c29);
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(51, 114, 168);
+}
+
+p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#right-cage {
+    /* how many px from window */
+    right: 0px;
+}
+
+#left-cage {
+    left: 0px;
+}
+
+.cage {
+    
+    /* how much of screen to take up horizontally */
+    width: 10%;
+	
+    /* offset from top */
+    top: 10%;
+    
+    height: 100%;
+
+    background-color: slategray;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.animal-container {
+    position: relative; 
+    height: 13%; 
+    /* left: -10px;  */
+}
+
+.animal {
+    position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.animal:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    /* transition: 500ms; */
+}
+
+#world {
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
